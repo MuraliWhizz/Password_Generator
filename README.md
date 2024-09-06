@@ -1,3 +1,48 @@
+# Password_Generator
+
+PassGen is a React Native project designed to generate passwords with various features like haptic feedback, checkbox animations, and form validation. This project uses modern libraries like Formik, Yup, and integrates linear gradients for better UI experiences.
+
+## Table of Contents
+- [PassGen](#passgen)
+  - [Table of Contents](#table-of-contents)
+  - [Project Overview](#project-overview)
+  - [Features](#features)
+  - [Requirements](#requirements)
+  - [Installation](#installation)
+  - [Running the Application](#running-the-application)
+  - [Testing](#testing)
+  - [Code Quality](#code-quality)
+  - [Project Structure](#project-structure)
+  - [License](#license)
+
+## Project Overview
+
+PassGen is a mobile application built with React Native to generate passwords based on user input. It also implements haptic feedback for a smooth user experience and uses `formik` for form management with validation powered by `yup`.
+
+## Features
+
+- **Password Generation**: Users can generate strong passwords.
+- **Checkbox Animations**: Animated checkboxes are used for user preferences.
+- **Haptic Feedback**: Haptic feedback on button press using `react-native-haptic-feedback`.
+- **Form Validation**: Form validation with `formik` and `yup`.
+- **Linear Gradients**: Beautiful UI with `expo-linear-gradient`.
+
+## Requirements
+
+- **Node.js**: v18 or above.
+- **Yarn**: v3.6.4 or above (as the package manager).
+- **React Native CLI**: Installed globally for building and running the app.
+- **Android Studio/ Xcode**: To run the application on Android/iOS devices or emulators.
+  
+## Installation
+
+1. Clone the repository:
+   ```bash
+   git clone https://github.com/your-username/passgen.git
+   cd Password_Generator
+
+
+
 This is a new [**React Native**](https://reactnative.dev) project, bootstrapped using [`@react-native-community/cli`](https://github.com/react-native-community/cli).
 
 # Getting Started
